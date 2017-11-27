@@ -1,0 +1,66 @@
+// out: styleTEST.css, sourcemap: true; compress: false
+
+body {background-color:#fceffc; }
+
+@color-primary: #9b59b6;
+@color-second: #efa7ef;
+
+
+.button {
+  padding:15px;
+  background-color:@color-primary;
+   border-radius:12px 0 12px 0;
+   color: white;
+   transition: .5s all linear;
+ }
+
+.button:hover {
+background-color: @color-second;
+ border-radius: 0 12px 0 12px;
+ border: solid 1px white;
+}
+
+/** GRILLE **/
+
+.wrapper {
+  width:800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.wrapper (@width: auto) {
+  width: unit(@width)
+}
+
+img {
+  float: left;
+  width: 300px;
+  margin: 20px;
+  transition: 1s all linear;
+}
+
+img:hover { opacity: 0; }
+
+p {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 2em;
+   padding:20px;
+ }
+
+#auteur {
+  font-size: 15px;
+  text-align: right;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: @color-primary;
+  font-size: 50px;
+  transition: 1s all linear;
+}
+
+h1:hover { color: @color-second;}
+
+a {text-decoration: none;}
