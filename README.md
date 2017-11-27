@@ -1,4 +1,4 @@
-# Pink Fluffy Unicorn
+# Pink Fluffy Unicorn LESS
 
 Projet HTML/CSS - Licorne
 
@@ -10,3 +10,4 @@ Projet HTML/CSS - Licorne
 ---
 
 Réalisation d'une page HTML avec le texte *La Licorne.txt*.
+CSS LESS
